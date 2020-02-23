@@ -13,6 +13,9 @@
 		D79C08D723FF68B200D61D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79C08D523FF68B200D61D31 /* Main.storyboard */; };
 		D79C08D923FF68B400D61D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79C08D823FF68B400D61D31 /* Assets.xcassets */; };
 		D79C08DC23FF68B400D61D31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79C08DA23FF68B400D61D31 /* LaunchScreen.storyboard */; };
+		D79C08E423FF68FB00D61D31 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C08E323FF68FB00D61D31 /* PlayingCard.swift */; };
+		D79C08E623FF6B5200D61D31 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C08E523FF6B5200D61D31 /* PlayingCardDeck.swift */; };
+		D79C08E823FF6DAC00D61D31 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C08E723FF6DAC00D61D31 /* PlayingCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D79C08D823FF68B400D61D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D79C08DB23FF68B400D61D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D79C08DD23FF68B400D61D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D79C08E323FF68FB00D61D31 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		D79C08E523FF6B5200D61D31 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		D79C08E723FF6DAC00D61D31 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				D79C08CF23FF68B200D61D31 /* AppDelegate.swift */,
 				D79C08D123FF68B200D61D31 /* SceneDelegate.swift */,
-				D79C08D323FF68B200D61D31 /* ViewController.swift */,
 				D79C08D523FF68B200D61D31 /* Main.storyboard */,
 				D79C08D823FF68B400D61D31 /* Assets.xcassets */,
 				D79C08DA23FF68B400D61D31 /* LaunchScreen.storyboard */,
 				D79C08DD23FF68B400D61D31 /* Info.plist */,
+				D79C08D323FF68B200D61D31 /* ViewController.swift */,
+				D79C08E723FF6DAC00D61D31 /* PlayingCardView.swift */,
+				D79C08E323FF68FB00D61D31 /* PlayingCard.swift */,
+				D79C08E523FF6B5200D61D31 /* PlayingCardDeck.swift */,
 			);
 			path = PlayingCardGame;
 			sourceTree = "<group>";
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D79C08D423FF68B200D61D31 /* ViewController.swift in Sources */,
+				D79C08E823FF6DAC00D61D31 /* PlayingCardView.swift in Sources */,
 				D79C08D023FF68B200D61D31 /* AppDelegate.swift in Sources */,
+				D79C08E623FF6B5200D61D31 /* PlayingCardDeck.swift in Sources */,
+				D79C08E423FF68FB00D61D31 /* PlayingCard.swift in Sources */,
 				D79C08D223FF68B200D61D31 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
